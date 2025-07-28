@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root{
+  --color-light: #f5f5f5;
+  --color-lighter: #f0f0f0;
+
+  --color-dark: #0f0f0f;
+  --color-darker: #080808;
+  --color-accent: #3b82f6;
+}
+
+@theme {
+  --color-light: var(--color-light);
+  --color-lighter: var(--color-lighter);
+
+  --color-dark: var(--color-dark);
+  --color-darker: var(--color-darker);
+  --color-accent: var(--color-accent);
+}
