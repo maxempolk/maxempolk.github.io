@@ -1,8 +1,8 @@
 # 🚀 Maxim Polyak \- Fullstack Web Developer
 
-Hello\! I'm \*\*Maxim Polyak\*\*, a Fullstack Web Developer with over 2 years of experience creating scalable, high\-performance, and intuitive web applications\. My passion is finding elegant solutions to complex problems\.
+Hello\! I'm **Maxim Polyak**, a Fullstack Web Developer with over 2 years of experience creating scalable, high\-performance, and intuitive web applications\. My passion is finding elegant solutions to complex problems\.
 
-I specialize in \*\*React\*\*, \*\*Node\.js\*\*, and modern frameworks, continuously learning the latest technologies to build efficient and contemporary web solutions\.
+I specialize in **React**, **Node\.js**, and modern frameworks, continuously learning the latest technologies to build efficient and contemporary web solutions\.
 
 ---
 
@@ -18,27 +18,27 @@ Here are the technologies and tools I work with\:
 
 #### Frontend
 
-* \*\*JavaScript \(ES6\+\)\*\*
-* \*\*React \/ Next\.js\*\*
-* \*\*Vue\.js \/ Nuxt\.js\*\*
-* \*\*TypeScript\*\*
-* \*\*Tailwind CSS\*\*
-* \*\*SCSS\/SASS\*\*
+* **JavaScript \(ES6\+\)**
+* **React \/ Next\.js**
+* **Vue\.js \/ Nuxt\.js**
+* **TypeScript**
+* **Tailwind CSS**
+* **SCSS\/SASS**
 
 #### Backend
 
-* \*\*Node\.js \/ Express\*\*
-* \*\*Python \/ Django \/ FastAPI\*\*
-* \*\*REST API\*\*
-* \*\*GraphQL\*\*
-* \*\*WebSocket\*\*
-* \*\*Microservices\*\*
+* **Node\.js \/ Express**
+* **Python \/ Django \/ FastAPI**
+* **REST API**
+* **GraphQL**
+* **WebSocket**
+* **Microservices**
 
 #### Tools \& Cloud
 
-* \*\*PostgreSQL \/ MongoDB\*\*
-* \*\*Docker\*\*
-* \*\*Git \/ GitHub\*\*
-* \*\*AWS \/ Vercel\*\*
-* \*\*Jest \/ Cypress\*\*
-* \*\*Webpack \/ Vite\*\*
+* **PostgreSQL \/ MongoDB**
+* **Docker**
+* **Git \/ GitHub**
+* **AWS \/ Vercel**
+* **Jest \/ Cypress**
+* **Webpack \/ Vite**
