@@ -1,6 +1,6 @@
-import type { Project } from "../content/portfolioTypes"
+import type { IProject } from "../content/portfolioTypes"
 
-const ProjectItem = ({ project }: { project: Project }) => {
+const ProjectItem = ({ project }: { project: IProject }) => {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-accent transition-colors">
       <div className="bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-accent transition-colors">
