@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import LngBtn from "./LngBtn";
 import { useEffect } from "react";
 import ToggleTheme from "./ToggleTheme";
+import { headerContent } from "../content/portfolio";
 
 const Header = () => {
     const { t } = useTranslation();
@@ -16,12 +17,16 @@ const Header = () => {
             <div className="flex justify-between items-center">
                 <a href="/" className="text-xl font-bold text-black dark:text-accent">Maxim Polyak</a>
                 <div className="items-center gap-8 flex">
-                    <span className="hidden md:flex items-center gap-8">
-                        <a href="#about" className="text-black dark:text-accent hover:underline">{t('header_about')}</a>
-                        <a href="#skills" className="text-black dark:text-accent hover:underline">{t('header_skills')}</a>
-                        <a href="#projects" className="text-black dark:text-accent hover:underline">{t('header_projects')}</a>
-                        <a href="#contact" className="text-black dark:text-accent hover:underline">{t('header_contact')}</a>
-                    </span>
+                    <nav className="hidden md:flex items-center gap-8">
+                        {headerContent.nav.map(el => 
+                            <a 
+                              href={el.url} 
+                              className="text-black dark:text-accent hover:underline"
+                              key={el.name}
+                            >{t(el.name)}</a>
+                        )}
+                        
+                    </nav>
                     <LngBtn />
                     <ToggleTheme />
                 </div>
