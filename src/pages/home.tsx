@@ -10,7 +10,7 @@ const HomePage = () => {
       <Hero />
       <About />
       <Skills />
-      {false && <Projects />}
+      <Projects />
       {/* TODO: вернуть проекты */}
       <Contact />
     </main>

@@ -34,26 +34,7 @@ export const skillsContent = {
 };
 
 export const projectsContent = {
-  projects: [
-    {
-      id: 'project1',
-      image: '', //https://placehold.co/600x400
-      title: 'E-commerce App',
-      technologies: ['React', 'Node.js', 'MongoDB'],
-      description: 'Online store with a shopping cart, payment and admin panel.',
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 'project2',
-      image: '',
-      title: 'Analytics Dashboard',
-      technologies: ['Vue.js', 'Python', 'PostgreSQL'],
-      description: 'Dashboard with graphs and analytics in real time.',
-      demoLink: '#',
-      codeLink: '#'
-    }
-  ] as Project[],
+  projects: [] as Project[],
 };
 
 export const contactContent = {

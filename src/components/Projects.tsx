@@ -5,6 +5,8 @@ import { projectsContent } from '../content/portfolio'
 const Projects = () => {
   const { t } = useTranslation();
 
+  if(projectsContent.projects.length == 0) return null
+
   return (
     <section id="projects" className="py-20 px-6">
     <div className="container mx-auto max-w-6xl">

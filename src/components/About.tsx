@@ -20,7 +20,7 @@ const About = () => {
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {aboutContent.stack.map((tech) => (
-                            <span key={tech} className="bg-gray-800 text-black/80 text-white dark:text-gray-400 px-3 py-1 rounded-full text-sm">{tech}</span>
+                            <span key={tech} className="bg-gray-800 text-white dark:text-gray-400 px-3 py-1 rounded-full text-sm">{tech}</span>
                         ))}
                     </div>
                 </div>
