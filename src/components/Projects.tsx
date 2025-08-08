@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { projectsContent } from '../content/portfolio'
 
 const Projects = () => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section id="projects" className="py-20 px-6">

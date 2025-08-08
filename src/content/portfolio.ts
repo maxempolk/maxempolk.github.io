@@ -61,7 +61,3 @@ export const contactContent = {
   linkedin: 'https://www.linkedin.com/in/mxmplk-поляк-193839350/',
   github: 'https://github.com/maxempolk',
 };
-
-// Если вы используете i18n, вы можете здесь экспортировать функции, 
-// которые берут ключи из i18n и возвращают контент.
-// Но для простоты, пока просто экспортируем данные.
